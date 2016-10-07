@@ -1,0 +1,19 @@
+body{
+ 	background: #999;
+ 	color: #666;
+ 	overflow: hidden;
+ 	padding: 0;
+ 	margin: 0;
+}
+div {
+	box-sizing: border-box;
+}
+
+[page-scroll-body]{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 100%;
+	//transition: top 1s;
+}
